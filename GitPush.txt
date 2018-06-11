@@ -1,0 +1,12 @@
+https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf 
+
+Note to self on how to commit files to repository on github
+git status or -s - Status of the folder
+git commit -a -m  "" - commits to repository with a message included
+git add . - adds everything in "this folder"
+        .. - adds everything in the above folder
+git push - pushes all commits to remote repository
+
+U - Untracked
+M - Modified 
+A - Index added
