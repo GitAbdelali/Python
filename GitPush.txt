@@ -11,3 +11,5 @@ git clean -f - removes untracked files
 U - Untracked
 M - Modified 
 A - Index added
+
+Explanation of basic git
