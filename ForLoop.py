@@ -1,5 +1,4 @@
-# Similar to while loop
-# Completely interchangeable
+# Similar to while loop, completely interchangeable
 
 # Comes down to preference. For loop is much more 
 # condensable compared to the while loop
