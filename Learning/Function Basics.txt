@@ -1,0 +1,59 @@
+What are functions?
+To assign a set of code and possibly variables known as parameters to a little bit of text.
+
+To start a function, do the following:
+
+    define a function, 'def' is used short for define 
+                        following the def, add a name which you will use to refer to your function
+                             *Make sure this is unique as you do not want to overlap functions*
+                        enter a colon after the parameters (if they're present)
+                        the function will pick up on everything that is under it
+
+Example: def example():
+         print('basic function')
+         z = 3+9
+         print(z)
+
+         print('hello')
+
+        In the above, only the code that follows the function will be output
+        print('hello') will not be shown
+  
+  to call the function, you can type out example() in the script and it will run and output the code underneath it
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                                        Functions with parameters
+
+def simple_addition(num1,num2)
+    answer = num1 + num2 
+    print('num1 is',num1)
+    print(answer)
+
+    The function above provides a simple addition prompt. 
+    When we call the function, we will input numbers for the variables num1 and num2 
+    which will then be input for num1 and num 2 in the code
+
+                simple_addition(3,4)
+
+                will output num1 is 3 and 
+                7 as the answer
+note: make sure the qty is the same as the parameters provided and the values you assign are the correct amounts
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Function defaults can be called within the parameters
+        ex: def simple(num1,num2=5<--- this is the default parameter)
+                print (num1,num2)
+
+            simple(2) <---- once this is called, it will display num1 as 2 and even though we didn't
+                            type out the number for num2, it will still output because it was given a default parameter
+                            
+                            output will be: 2 and 5
+
+                            This is useful because maybe a variable within the parameter has to be specific, but the 
+                            other variables don't have to be. you could assign it in the parameters and not have to worry 
+                            about it. 
+
+                            an example could be a mortgage downpayment would have to be specific, so you could set a default parameter
+                            for it
